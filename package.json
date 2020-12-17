@@ -1,6 +1,11 @@
 {
   "name": "@artemelka/react-localization",
   "version": "0.0.2",
+  "keywords": [
+    "react",
+    "tepescript"
+  ],
+  "description": "localization package from react app",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -59,5 +64,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
